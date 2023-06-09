@@ -24,5 +24,5 @@ const classNumber = prompt ('classe')
 
 console.log (classNumber, typeof classNumber)
 
-document.addElementById('my-data').innerHTML = name + ' ' + surname + ' ' + age + ' ' + color + ' ' + classNumber
+document.getElementById('my-data').innerHTML = name + ' ' + surname + ' ' + age + ' ' + color + ' ' + classNumber
 
