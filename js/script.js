@@ -1,28 +1,29 @@
 
 
 
-const name = prompt ('Inserisci nome')
+ const firstName = prompt ('Inserisci nome')
 
-console.log (name, typeof name)
-
-
-
-const surname = prompt ('Inserisci cognome')
-
-console.log (surname, typeof surname)
+ console.log (firstName, typeof firstName)
 
 
-const age = prompt ('Inserisci età')
 
-console.log (age, typeof age)
+ const surname = prompt ('Inserisci cognome')
 
-const color = prompt ('il tuo colore preferto')
+ console.log (surname, typeof surname)
 
-console.log (color, typeof color)
 
-const classNumber = prompt ('classe')
+ const age = prompt ('Inserisci età')
 
-console.log (classNumber, typeof classNumber)
+ console.log (age, typeof age)
 
-document.getElementById('my-data').innerHTML = name + ' ' + surname + ' ' + age + ' ' + color + ' ' + classNumber
+ const color = prompt ('Il tuo colore preferto')
 
+ console.log (color, typeof color)
+
+ const classNumber = prompt ('Classe Boolean')
+
+ console.log (classNumber, typeof classNumber)
+
+ const password = firstName + ' ' + surname + ' ' + age + ' ' + color + ' ' + classNumber 
+
+ document.getElementById('my-data').innerHTML = 'La tua nuova password è: ' + '<strong>' + password + '</strong>'
